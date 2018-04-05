@@ -88,8 +88,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/chengpeng/cpspace/bdd/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/chengpeng/cpspace/bdd/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -113,7 +113,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/chengpeng/cpspace/bdd/logs/beidou-example-advanced/egg-schedule.log"
+        "file": "/Users/chengpeng/cpspace/omiweb/logs/beidou-example-advanced/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -127,7 +127,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/chengpeng/cpspace/bdd/app/public",
+      "dir": "/Users/chengpeng/cpspace/omiweb/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -136,8 +136,8 @@
     },
     "view": {
       "root": [
-        "/Users/chengpeng/cpspace/bdd/app/views",
-        "/Users/chengpeng/cpspace/bdd/client"
+        "/Users/chengpeng/cpspace/omiweb/app/views",
+        "/Users/chengpeng/cpspace/omiweb/client"
       ],
       "cache": false,
       "defaultExtension": ".jsx",
@@ -175,7 +175,7 @@
           ".jsx"
         ],
         "alias": {
-          "client": "/Users/chengpeng/cpspace/bdd/client"
+          "client": "/Users/chengpeng/cpspace/omiweb/client"
         }
       },
       "devServer": {
@@ -203,12 +203,12 @@
       "polyfill": true,
       "babel": {
         "presets": [
-          "/Users/chengpeng/cpspace/bdd/node_modules/babel-preset-beidou-server/index.js"
+          "/Users/chengpeng/cpspace/omiweb/node_modules/babel-preset-beidou-server/index.js"
         ],
         "babelrc": false
       },
       "universal": {
-        "assetsFilePath": "/Users/chengpeng/cpspace/bdd/.isomorphic/assets.json",
+        "assetsFilePath": "/Users/chengpeng/cpspace/omiweb/.isomorphic/assets.json",
         "assets": [
           ".sass",
           ".scss",
@@ -235,7 +235,7 @@
         ]
       },
       "alias": {
-        "client": "/Users/chengpeng/cpspace/bdd/client"
+        "client": "/Users/chengpeng/cpspace/omiweb/client"
       }
     },
     "router": {
@@ -292,9 +292,9 @@
         "description": "beidou example advanced"
       }
     },
-    "baseDir": "/Users/chengpeng/cpspace/bdd",
+    "baseDir": "/Users/chengpeng/cpspace/omiweb",
     "HOME": "/Users/chengpeng",
-    "rundir": "/Users/chengpeng/cpspace/bdd/run",
+    "rundir": "/Users/chengpeng/cpspace/omiweb/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -325,7 +325,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/chengpeng/cpspace/bdd/logs/beidou-example-advanced",
+      "dir": "/Users/chengpeng/cpspace/omiweb/logs/beidou-example-advanced",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -389,7 +389,7 @@
     "clusterClient": {
       "responseTimeout": 60000
     },
-    "client": "/Users/chengpeng/cpspace/bdd/client",
+    "client": "/Users/chengpeng/cpspace/omiweb/client",
     "core": {
       "name": "Beidou"
     },
@@ -427,8 +427,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-session",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -440,8 +440,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-security",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-security",
       "version": "2.2.1"
     },
     "jsonp": {
@@ -453,8 +453,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-jsonp",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -466,8 +466,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-onerror",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-onerror",
       "version": "2.0.0"
     },
     "watcher": {
@@ -477,8 +477,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-watcher",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -488,8 +488,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-multipart",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -503,8 +503,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-development",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-development",
       "version": "2.2.0"
     },
     "schedule": {
@@ -514,8 +514,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-schedule",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -527,8 +527,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-logrotator",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -538,8 +538,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-static",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-static",
       "version": "2.1.0"
     },
     "view": {
@@ -549,8 +549,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/egg/config/plugin.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/egg-view",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/egg/config/plugin.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/egg-view",
       "version": "2.1.0"
     },
     "beidouView": {
@@ -560,8 +560,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/beidou-core/config/plugin.default.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/beidou-view",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/beidou-core/config/plugin.default.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/beidou-view",
       "version": "1.0.0"
     },
     "react": {
@@ -573,8 +573,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/beidou-core/config/plugin.default.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/beidou-view-react",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/beidou-core/config/plugin.default.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/beidou-view-react",
       "version": "1.0.0"
     },
     "webpack": {
@@ -587,8 +587,8 @@
       "name": "webpack",
       "dependencies": [],
       "optionalDependencies": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/beidou-core/config/plugin.default.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/beidou-webpack",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/beidou-core/config/plugin.default.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/beidou-webpack",
       "version": "1.0.0"
     },
     "isomorphic": {
@@ -598,8 +598,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/beidou-core/config/plugin.default.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/beidou-isomorphic",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/beidou-core/config/plugin.default.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/beidou-isomorphic",
       "version": "1.0.0"
     },
     "router": {
@@ -609,8 +609,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/chengpeng/cpspace/bdd/node_modules/beidou-core/config/plugin.default.js",
-      "path": "/Users/chengpeng/cpspace/bdd/node_modules/beidou-router",
+      "from": "/Users/chengpeng/cpspace/omiweb/node_modules/beidou-core/config/plugin.default.js",
+      "path": "/Users/chengpeng/cpspace/omiweb/node_modules/beidou-router",
       "version": "1.0.0"
     }
   }
