@@ -1,0 +1,13 @@
+{
+  "name": "omiweb",
+  "version": "0.1",
+  "description": "ssr for omiweb",
+  "main": "index.js",
+  "repository": "https://github.com/playwolsey/omiweb",
+  "author": "playwolsey",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "koa": "^2.5.1"
+  }
+}
