@@ -1,8 +1,11 @@
 {
   "name": "omiweb",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "ssr for omiweb",
   "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js"
+  },
   "repository": "https://github.com/playwolsey/omiweb",
   "author": "playwolsey",
   "license": "MIT",
