@@ -4,15 +4,14 @@
   "description": "ssr for omiweb",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony index.js"
+    "start": "nodemon --harmony index.js"
   },
   "repository": "https://github.com/playwolsey/omiweb",
   "author": "playwolsey",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "koa": "^2.5.1",
-    "nunjucks": "^3.1.2"
+    "koa": "^2.5.1"
   },
   "devDependencies": {
     "nodemon": "^1.17.4"
