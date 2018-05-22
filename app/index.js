@@ -3,11 +3,12 @@ const path = require('path');
 const views = require('koa-views');
 const app = new Koa();
 
-app.use(views(path.join(__dirname, '/views'), { extension: 'nunjucks' }));
+app.use(views(__dirname, { map: {html: 'nunjucks' }}));
 
-// response
-app.use(ctx => {
-  ctx.body = 'Hello Koa';
+app.use(async function (ctx) {
+  await ctx.render('./views/index.html')
 });
 
-app.listen(3000);
+app.listen(3000, () => {
+  console.log('koa server running on http://localhost:3000');
+});
