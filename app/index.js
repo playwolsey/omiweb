@@ -1,5 +1,5 @@
-// const Koa = require('koa');
-import Koa from 'koa';
+const Koa = require('koa');
+// import Koa from 'koa';
 const path = require('path');
 const views = require('koa-views');
 const app = new Koa();
@@ -8,7 +8,6 @@ app.use(views(__dirname, { map: {html: 'nunjucks' }}));
 
 app.use(async function (ctx) {
   await ctx.render('./views/index.html')
-  d
 });
 
 app.use(async function pageNotFound(ctx) {
